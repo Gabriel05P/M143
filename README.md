@@ -14,5 +14,5 @@ Wenn dies gemacht ist, müssen wir das CMD öffnen und können uns dann dort uns
 
 ### multipass launch -c4 -d -m 4G -n m143 docker
 
-![Alt text](<Multipass erste VM.png>)
+![Alt text](image-1.png)
 
