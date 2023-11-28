@@ -9,3 +9,8 @@ Um die VM's und Testumgebungen zu erstellen, benutze ich dafür Multipass. Ich B
 Ich habe als erstes eine VM auf Mutlipass erstellt. Dafür muss Mutlipass schon installiert und anwendungsbereit sein. Multipass kann man hier installieren:
 
 https://multipass.run/docs/installing-on-windows#heading--install-upgrade-uninstall
+
+Wenn dies gemacht ist, müssen wir das CMD öffnen und können uns dann dort unsere erste VM erstellen. Dies machen wir mit diesem Befehl:
+
+
+![Alt text](<../Multipass erste VM.png>)
