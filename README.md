@@ -12,7 +12,7 @@ https://multipass.run/docs/installing-on-windows#heading--install-upgrade-uninst
 
 Wenn dies gemacht ist, müssen wir das CMD öffnen und können uns dann dort unsere erste VM erstellen. Dies machen wir mit diesem Befehl:
 
-### multipass launch -c4 -d -m 4G -n m143 docker
+### multipass launch -c4 -d 80G -m 4G -n m143 docker
 
 ![Alt text](image-1.png)
 
