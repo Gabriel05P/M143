@@ -28,5 +28,7 @@ docker: Dieser Teil des Befehls gibt an, dass Docker in der virtuellen Maschine 
 
 ![Alt text](image-1.png)
 
+Wie man im Screenshot sieht, kann man mit "multipass List" kontrollieren, ob die instanz wirklich erstellt wurde.
+
 
 
