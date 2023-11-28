@@ -14,5 +14,19 @@ Wenn dies gemacht ist, müssen wir das CMD öffnen und können uns dann dort uns
 
 ### multipass launch -c4 -d 80G -m 4G -n m143 docker
 
+multipass launch: Dieser Teil des Befehls startet eine neue virtuelle Maschine (VM) mit Multipass.
+
+-c4: Dieser Parameter gibt an, dass die VM über 4 CPUs (Kerne) verfügen soll.
+
+-d 80G: Dieser Parameter legt die Größe der virtuellen Festplatte auf 80 Gigabyte (GB) fest.
+
+-m 4G: Dieser Parameter gibt den VM 4 Gigabyte (GB) Arbeitsspeicher (RAM).
+
+-n m143: Dieser Parameter weist der VM einen Namen zu, in diesem Fall "m143".
+
+docker: Dieser Teil des Befehls gibt an, dass Docker in der virtuellen Maschine installiert werden soll.
+
 ![Alt text](image-1.png)
+
+
 
