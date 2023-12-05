@@ -32,6 +32,8 @@ Wie man im Screenshot sieht, kann man mit "multipass List" kontrollieren, ob die
 
 ![Alt text](<docker bestätigt.png>)
 
+Mit dem Befehl "docker version", sieht man welche docker version man heruntergeladen hat oder ob eine schon existiert. Dies haben wir schon heruntergeladen, bei erstellen der VM.
+
 ## Schritt 3. Minecraft Server erstellen.
 
 Hier muss ich mir erst noch Minecraft kaufen.
