@@ -87,12 +87,46 @@ Um die Container starten zu können, müssen wir den Befehl "sudo docker compose
 
 ![Alt text](<docker compose.png>)
 
+Man kann es auch im Hintergrund laufen lassen, was ich empfehlen würde.
 
+![Alt text](<compose hintergrund laufen lassen.png>)
 
-
+Wenn dies gemacht ist, kann man mit der IP der VM und den richtigen Port auf duplicati. Die IP kann man mit multipass list sehen und den Port kann man auf der Config file sehen, das wir vorher benutzt haben.
+![Alt text](<Screenshot 2023-12-05 112521.png>)
+```yaml
+container_name: duplicati
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - /home/ubuntu/duplicati/appdata/config:/config
+      - /home/ubuntu/duplicati/backups:/backups
+      - /home/ubuntu/duplicati/source:/source
+      - /home/ubuntu/minecraft_data:/minecraft_data
+    ports:
+      - 8200:8200
+    restart: unless-stopped
+```
+![Alt text](<Duplicati funktioniert.png>)
 
 
 ## Schritt 4.Portainer erstellen
+
+https://docs.portainer.io/start/install-ce/server/docker/linux
+
+Auf dieser Website habe ich den Befehl gefunden um portainer zu installieren.
+
+![Alt text](portainer.png)
+
+mit "sudo docker container ls" kann man sehen welcher Port verwendet wird. In diesem fall der Port 9443.
+
+![Alt text](<Portainer port.png>)
+
+![Alt text](portainer_io.png)
+
+
+
 
 
 
