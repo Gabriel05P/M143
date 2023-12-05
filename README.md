@@ -77,11 +77,26 @@ services:
     restart: unless-stopped
 ```
 
-## Schritt 3.Portainer erstellen
+![Alt text](<docker-compose erstellt und ausgeführt.png>)
+![Alt text](<nano skript.png>)
+
+
+## Schritt 3. Contrainer starten
+
+Um die Container starten zu können, müssen wir den Befehl "sudo docker compose up" eingeben.
+
+![Alt text](<docker compose.png>)
 
 
 
-## Schritt 4. Minecraft Server erstellen.
+
+
+
+## Schritt 4.Portainer erstellen
+
+
+
+## Schritt 5. Minecraft Server erstellen.
 
 Hier muss ich mir erst noch Minecraft kaufen.
 
