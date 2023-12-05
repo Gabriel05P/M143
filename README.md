@@ -92,7 +92,9 @@ Man kann es auch im Hintergrund laufen lassen, was ich empfehlen würde.
 ![Alt text](<compose hintergrund laufen lassen.png>)
 
 Wenn dies gemacht ist, kann man mit der IP der VM und den richtigen Port auf duplicati. Die IP kann man mit multipass list sehen und den Port kann man auf der Config file sehen, das wir vorher benutzt haben.
+
 ![Alt text](<Screenshot 2023-12-05 112521.png>)
+
 ```yaml
 container_name: duplicati
     environment:
