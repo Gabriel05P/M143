@@ -134,6 +134,4 @@ mit "sudo docker container ls" kann man sehen welcher Port verwendet wird. In di
 
 ## Schritt 5. Minecraft Server erstellen.
 
-Hier muss ich mir erst noch Minecraft kaufen.
-
-Ich habe mir schon einig
+Minecraft Java Edition gekauft
