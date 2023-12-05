@@ -47,7 +47,7 @@ https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose
 https://docs.linuxserver.io/images/docker-duplicati/#usage
 
 So sieht das nano File zum schluss aus:
-
+```yaml
 version: "3.7"
 services:
   mc:
@@ -75,7 +75,7 @@ services:
     ports:
       - 8200:8200
     restart: unless-stopped
-
+```
 
 ## Schritt 3.Portainer erstellen
 
