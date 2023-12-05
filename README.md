@@ -34,8 +34,55 @@ Wie man im Screenshot sieht, kann man mit "multipass List" kontrollieren, ob die
 
 Mit dem Befehl "docker version", sieht man welche docker version man heruntergeladen hat oder ob eine schon existiert. Dies haben wir schon heruntergeladen, bei erstellen der VM.
 
-## Schritt 3. Minecraft Server erstellen.
+Als nächstes kann mann die VM gestartet.
+
+Command: multipass shell m143
+
+![Alt text](<start vm.png>)
+
+Wenn dies funktioniert hat, kann ein nano file mit den Konfigs für duplicati und den Mincarft-Server erstellt werden. Um so ein File erstellen zu können, habe ich die 2 Anleitungen als hilfe benutzt:
+
+https://docker-minecraft-server.readthedocs.io/en/latest/#using-docker-compose
+
+https://docs.linuxserver.io/images/docker-duplicati/#usage
+
+So sieht das nano File zum schluss aus:
+
+version: "3.7"
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+    volumes:
+      - /home/ubuntu/minecraft_data:/data
+  duplicati:
+    image: lscr.io/linuxserver/duplicati:latest
+    container_name: duplicati
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - /home/ubuntu/duplicati/appdata/config:/config
+      - /home/ubuntu/duplicati/backups:/backups
+      - /home/ubuntu/duplicati/source:/source
+      - /home/ubuntu/minecraft_data:/minecraft_data
+    ports:
+      - 8200:8200
+    restart: unless-stopped
+
+
+## Schritt 3.Portainer erstellen
+
+
+
+## Schritt 4. Minecraft Server erstellen.
 
 Hier muss ich mir erst noch Minecraft kaufen.
 
-
+Ich habe mir schon einig
