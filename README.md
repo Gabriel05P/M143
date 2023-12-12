@@ -142,3 +142,11 @@ Sobald man sich eingerichtet hat, müssen wir einen Ordner erstellen. Darauf wer
 
 ![Alt text](mega_nz.png)
 
+## Schritt 6. Minecraft server starten
+
+um den Server starten zu können, brauchen wir dafür Minecraft.
+
+dies habe ich auch gekauft auf der Offizellen Minecraft seite:
+
+![Alt text](minecraft.png)
+
