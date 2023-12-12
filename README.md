@@ -146,7 +146,7 @@ Sobald man sich eingerichtet hat, müssen wir einen Ordner erstellen. Darauf wer
 
 um den Server starten zu können, brauchen wir dafür Minecraft.
 
-dies habe ich auch gekauft auf der Offizellen Minecraft seite:
+dies habe ich auch gekauft auf der Offizellen Minecraft seite: https://www.minecraft.net
 
 ![Alt text](minecraft.png)
 
