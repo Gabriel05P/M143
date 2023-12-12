@@ -132,6 +132,13 @@ mit "sudo docker container ls" kann man sehen welcher Port verwendet wird. In di
 
 
 
-## Schritt 5. Minecraft Server erstellen.
+## Schritt 5. Mega.nz einrichten
 
-Minecraft Java Edition gekauft
+Auf der Website werden wir die Daten / Ressourcen des Minecraft Servers backupen. Dafür müssen wir uns erst einen Account auf Mega.nz machen.
+
+Dies kann man hier: https://mega.nz
+
+Sobald man sich eingerichtet hat, müssen wir einen Ordner erstellen. Darauf werden unsere Minecraft Daten dann gespeichert. 
+
+![Alt text](mega_nz.png)
+
