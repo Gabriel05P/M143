@@ -150,3 +150,15 @@ dies habe ich auch gekauft auf der Offizellen Minecraft seite: https://www.minec
 
 ![Alt text](minecraft.png)
 
+als nächstes müssen wir uns mit dem Server verbinden. 
+
+Die Bedingungen:
+
+  - Dafür muss der Server Laufen, indem wir die Container starten
+
+  ![Alt text](<compose hintergrund laufen lassen.png>)
+
+  - Minecraft starten und bei add server die IP Adresse eingeben.
+
+  ![Alt text](<add server.png>)
+
