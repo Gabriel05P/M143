@@ -162,3 +162,10 @@ Die Bedingungen:
 
   ![Alt text](<add server.png>)
 
+Sobald dies funktioniert hat, ladet das Spiel. Um zu überprüfen, ob das Backup funktioniert, sollte man einen block platzieren und dann sich wieder disconnecten.
+
+![Alt text](<Minecraft game stand 1.png>)
+
+Als nächstes müssen wir auf Duplicati und können das Backup sofort starten, in dem wir auf "run now" klicken.
+
+![Alt text](<duplicati backup run now.png>)
