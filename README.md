@@ -171,3 +171,10 @@ Als nächstes müssen wir auf Duplicati und können das Backup sofort starten, i
 ![Alt text](<duplicati backup run now.png>)
 
 sobald das backup fertig ist, 
+
+Probleme:
+
+Ich konnte am 09.01 duplicati nicht mehr öffnen. Die VM war gestartet wie auch die Container. Deshalb habe ich im portainer den container genauer angeschaut. Das Netzwerk war auf ubuntu_default eingestellt, weshalb ich die website im browser nicht Aufrufen konnte. Ich habe ein bisschen recherchiert und diesen Beitrag gefunden:
+https://stackoverflow.com/questions/43754095/how-to-join-the-default-bridge-network-with-docker-compose-v2
+
+Mit den Informationen habe ich das Docker file so angepasst, das der Netzwerk default für alle container auf Bridge eingestellt ist. Es hat funktioniert.
