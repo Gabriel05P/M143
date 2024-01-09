@@ -142,6 +142,10 @@ Sobald man sich eingerichtet hat, müssen wir einen Ordner erstellen. Darauf wer
 
 ![Alt text](mega_nz.png)
 
+Für eine Zusätzliche sicherheit, habe ich einen Recovery Key für meinen Mega.nz account. den Speichere ich auf einem Externen USB-Stick.
+
+![Alt text](Rettungsschl%C3%BCssel.png)
+
 ## Schritt 6. Minecraft server starten
 
 um den Server starten zu können, brauchen wir dafür Minecraft.
@@ -218,6 +222,4 @@ Mit den Informationen habe ich das Docker file so angepasst, das der Netzwerk de
 ![Alt text](<zweiter container.png>)
 ![Alt text](<dritter container.png>)
 
-Für eine Zusätzliche sicherheit, habe ich einen Recovery Key für meinen Mega.nz account. den Speichere ich auf einem Externen USB-Stick.
 
-![Alt text](Rettungsschl%C3%BCssel.png)
