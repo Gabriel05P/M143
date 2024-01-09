@@ -146,6 +146,19 @@ Für eine Zusätzliche sicherheit, habe ich einen Recovery Key für meinen Mega.
 
 ![Alt text](Rettungsschl%C3%BCssel.png)
 
+Da die Cloud jetzt einsatzbereit ist, kann man die Cloud mit dem Backupsytem verbinden, so das die Dateien dann auf Mega.nz gespeichert werden.
+
+Dafür müssen wir uns mit duplicati verbinden und auf "Sicherung hinzufügen". Dann müssen wir hier einen Namen eingeben zum Beispiek Minecraft, damit wir wissen das es das Backup für den Server ist. Ein Passwort sollte man auch vergeben und eine Verschlüsselungs Methode auswählen. 
+
+![Alt text](<Sicherung erstellen.png>)
+
+Als nächstes müssen wir einen speichertyp wählen, in unserem fall mega.nz. Der Ordnerpfad wie auch der Benutzername und Passwort müssen eingegeben werden.
+![Alt text](<nächster schritt der sicherung.png>)
+Zum Schluss muss man noch den richtigen Ordner auswählen und kann noch eigene Konfigurationen einrichten. ![Alt text](<letzter schritt der sicherung.png>)
+
+
+
+
 ## Schritt 6. Minecraft server starten
 
 um den Server starten zu können, brauchen wir dafür Minecraft.
