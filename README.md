@@ -170,7 +170,9 @@ Als nächstes müssen wir auf Duplicati und können das Backup sofort starten, i
 
 ![Alt text](<duplicati backup run now.png>)
 
-sobald das backup fertig ist, 
+sobald das backup fertig ist, Kann man wieder ins Spiel und man sollte dann wieder am gleichen ort wieder sein und die Dateien sollten auf Mega.nz gespeichert sein.
+
+![Alt text](<Backup Minecraft.png>)
 
 Probleme:
 
