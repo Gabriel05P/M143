@@ -142,7 +142,7 @@ Sobald man sich eingerichtet hat, müssen wir einen Ordner erstellen. Darauf wer
 
 ![Alt text](mega_nz.png)
 
-Für eine Zusätzliche sicherheit, habe ich einen Recovery Key für meinen Mega.nz account. den Speichere ich auf einem Externen USB-Stick.
+Für eine Zusätzliche sicherheit, habe ich einen Recovery Key für meinen Mega.nz account. den Speichere ich auf einem Externen USB-Stick und im meinem Passwort Manager.
 
 ![Alt text](Rettungsschl%C3%BCssel.png)
 
