@@ -179,6 +179,40 @@ Probleme:
 Ich konnte am 09.01 duplicati nicht mehr öffnen. Die VM war gestartet wie auch die Container. Deshalb habe ich im portainer den container genauer angeschaut. Das Netzwerk war auf ubuntu_default eingestellt, weshalb ich die website im browser nicht Aufrufen konnte. Ich habe ein bisschen recherchiert und diesen Beitrag gefunden:
 https://stackoverflow.com/questions/43754095/how-to-join-the-default-bridge-network-with-docker-compose-v2
 
+```yaml
+version: "3.7"
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    network_mode: bridge
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+    volumes:
+      - /home/ubuntu/minecraft_data:/data
+  duplicati:
+    image: lscr.io/linuxserver/duplicati:latest
+    container_name: duplicati
+    network_mode: bridge
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - /home/ubuntu/duplicati/appdata/config:/config
+      - /home/ubuntu/duplicati/backups:/backups
+      - /home/ubuntu/duplicati/source:/source
+      - /home/ubuntu/minecraft_data:/minecraft_data
+    ports:
+      - 8200:8200
+    restart: unless-stopped
+~                                                                                                                                  ~                                                                                                                                  ~                                                                                                                                  ~                                                                                                                                  ~                                                                                                                                  ~                                                                                                                                  "docker-compose.yaml" 29L, 706B                                                                                  17,24         All
+```
+
+
 Mit den Informationen habe ich das Docker file so angepasst, das der Netzwerk default für alle container auf Bridge eingestellt ist. Es hat funktioniert.
 
 Für eine Zusätzliche sicherheit, habe ich einen Recovery Key für meinen Mega.nz account. den Speichere ich auf einem Externen USB-Stick.
