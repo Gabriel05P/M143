@@ -180,3 +180,7 @@ Ich konnte am 09.01 duplicati nicht mehr öffnen. Die VM war gestartet wie auch 
 https://stackoverflow.com/questions/43754095/how-to-join-the-default-bridge-network-with-docker-compose-v2
 
 Mit den Informationen habe ich das Docker file so angepasst, das der Netzwerk default für alle container auf Bridge eingestellt ist. Es hat funktioniert.
+
+Für eine Zusätzliche sicherheit, habe ich einen Recovery Key für meinen Mega.nz account. den Speichere ich auf einem Externen USB-Stick.
+
+![Alt text](Rettungsschl%C3%BCssel.png)
