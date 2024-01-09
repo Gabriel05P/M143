@@ -213,7 +213,10 @@ services:
 ```
 
 
-Mit den Informationen habe ich das Docker file so angepasst, das der Netzwerk default für alle container auf Bridge eingestellt ist. Es hat funktioniert.
+Mit den Informationen habe ich das Docker file so angepasst, das der Netzwerk default für alle container auf Bridge eingestellt ist. Ich habe bei beiden containern die Netzwerk-Konfiguration "network_mode: bridge" hinzugefügt. Es hat funktioniert. Als Beweis, hier noch ein Screenshot aus dem portainer:
+![Alt text](<erster container.png>)
+![Alt text](<zweiter container.png>)
+![Alt text](<dritter container.png>)
 
 Für eine Zusätzliche sicherheit, habe ich einen Recovery Key für meinen Mega.nz account. den Speichere ich auf einem Externen USB-Stick.
 
