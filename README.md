@@ -169,3 +169,5 @@ Sobald dies funktioniert hat, ladet das Spiel. Um zu überprüfen, ob das Backup
 Als nächstes müssen wir auf Duplicati und können das Backup sofort starten, in dem wir auf "run now" klicken.
 
 ![Alt text](<duplicati backup run now.png>)
+
+sobald das backup fertig ist, 
