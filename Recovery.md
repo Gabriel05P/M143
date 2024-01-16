@@ -47,3 +47,8 @@ Die Container können danach gestartet werden. mit dem Befehl:
 
 Als nächstes muss duplicati geöffnet werden. wir nehmen die IP der neuen VM und den Port von duplicati also 8200.
 
+Um unsere Backups wiederherzustellen, müssen wir hier auch ein Backup erstellen, nur das wir diesmal "von einer Datei importieren" auswählen.
+
+![Alt text](<recovery import.png>)
+
+
