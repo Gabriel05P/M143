@@ -15,3 +15,17 @@ Als nächstes konnte man es als Befehl für Kommandozeile oder als Datei exporti
 Sobald auf Exportieren geklickt wurde, wird die Configdatei Heruntergeladen.
 
 ![Alt text](<Konfiguration exportiert.png>)
+
+Jetzt habe ich die Nötige Datei, um einen Restore zu ermöglichen.
+
+## Teil 2 VM erstellen
+
+Im 2.Teil werde ich eine weiter VM erstellen. Wir gehen davon aus das wir alle Daten und Backups verloren haben. Deshalb müssen wir wieder eine neue VM erstellen. 
+
+Die Neue VM bekommt den namen m143-Recovery.
+Dies wird mit dem Befehl auf der Commandozeile durchgeführt:
+
+#### Multipass multipass launch -c4 -d 80G -m 4G -n m143-Recovery docker
+
+![Alt text](<neue VM erstellt.png>)
+
