@@ -29,3 +29,21 @@ Dies wird mit dem Befehl auf der Commandozeile durchgeführt:
 
 ![Alt text](<neue VM erstellt.png>)
 
+Die VM kann mit "Multipass shell m143-Recovery" gestartet werden.
+
+Sobald dies funktioniert hat, müssen wir das docker-compose file wiederherstellen. Dies erledigen wir indem wir ein neues nano file öffnen.
+
+#### nano docker-compse.yaml
+
+dort geben wir wieder die Konfigurationen ein, die wir schon bei der ersten VM bestimmt haben.
+
+![Alt text](<docker.compose für recovery.png>)
+
+Die Container können danach gestartet werden. mit dem Befehl:
+
+#### sudo docker compose up -d
+
+![Alt text](<sudo docker comopose up recovery.png>)
+
+Als nächstes muss duplicati geöffnet werden. wir nehmen die IP der neuen VM und den Port von duplicati also 8200.
+
