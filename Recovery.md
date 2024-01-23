@@ -79,6 +79,6 @@ Hier noch ein Screenshot, das alles gestartet ist.
 
 Dann können wir Minecraft starten und die Ip adresse des Servers eintragen und uns verbinden. Wenn alles geklappt hat landet man wieder im gleichen spielerstand wie davor.
 
-![Alt text](<../minecraft m143 Recorvery.png>)
+![!\[Alt text\](<../minecraft m143 Recorvery.png>)](<minecraft m143 Recorvery.png>)
 
 
