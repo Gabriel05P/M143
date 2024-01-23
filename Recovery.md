@@ -47,8 +47,38 @@ Die Container können danach gestartet werden. mit dem Befehl:
 
 Als nächstes muss duplicati geöffnet werden. wir nehmen die IP der neuen VM und den Port von duplicati also 8200.
 
-Um unsere Backups wiederherzustellen, müssen wir hier auch ein Backup erstellen, nur das wir diesmal "von einer Datei importieren" auswählen.
+Um unsere Backups wiederherzustellen, müssen wir hier auf Wiederherstellen und aus Konfiguration  wiederherstellen auswählen.
 
-![Alt text](<recovery import.png>)
+![Alt text](Konfig_wiederherstellen.png)
+
+Hier müssen wir die Config Datei einfügen, die wir vorhin heruntergeladen haben.
+
+![Alt text](<Konfig datei einfügen.png>)
+
+Dann kann man auf Importieren. Hier wird das alte Setup dann gezeigt, das wir ganz am anfang eingerichtet haben also wieder die Originale Version.
+
+![Alt text](<wenn man auf importieren drückt 1.png>)
+
+Das Recovery datum kann auch ausgewählt werden.
+
+![Alt text](<../restore datum auswählen.png>)
+
+![Alt text](<Restore teil2.png>)
+
+Der letzte schritt, sind die Wiederherstellungsoptionen, die wir so lassen können oder einen bestimmten Speicherort auswählen. In diesem fall lassen wir die Default einstellungen.
+
+![Alt text](wiederherstellungsoptionen.png)
+
+Sobald auf Wiederherstellen geklickt wurde, muss man kurz warten und dann sollte die Nachricht kommen das es erfolgreich war, wie im Screenshot.
+
+![Alt text](<wiederherstellung war erfolgreich.png>)
+
+Hier noch ein Screenshot, das alles gestartet ist.
+
+![Alt text](image-2.png)
+
+Dann können wir Minecraft starten und die Ip adresse des Servers eintragen und uns verbinden. Wenn alles geklappt hat landet man wieder im gleichen spielerstand wie davor.
+
+![Alt text](<../minecraft m143 Recorvery.png>)
 
 
