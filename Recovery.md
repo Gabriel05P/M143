@@ -73,6 +73,17 @@ Sobald auf Wiederherstellen geklickt wurde, muss man kurz warten und dann sollte
 
 ![Alt text](<wiederherstellung war erfolgreich.png>)
 
+Das Wiederherstellen war erfolgreich. Jetzt müssen wir das Backup wiederhinzufügen, indem wir "aus Sicherung hinzufügen" drücken und dort "von einer Datei importieren" auswählen
+
+![Alt text](<neue sicherung.png>)
+
+Hier kann man due Datei hinzufügen.
+
+![Alt text](sicherheit.png)
+
+sobald man das Backup hinzugefügt hat, kann Minecraft gestartet werden, und man sollte wieder im gleichen Spielstand sein.
+
+
 Hier noch ein Screenshot, das alles gestartet ist.
 
 ![Alt text](image-2.png)
