@@ -6,6 +6,25 @@ Um die VM's und Testumgebungen zu erstellen, benutze ich dafür Multipass. Ich B
 
 Das Ziel ist es das Ich bei meinem Minecraft server den Spielstand Backupen kann und der auch bei Komplettem Datenverlust wiederhergestellt werden kann, mittels eines Recovery.
 
+Diese IP's würde ich verwenden, wenn ich 
+
++---------------------+--------------------------+
+|      Komponente     |      IP-Adresse          |
++---------------------+--------------------------+
+| Internet            | -                        |
++---------------------+--------------------------+
+| Cloud (Mega.nz)     | 203.0.113.1              |
++---------------------+--------------------------+
+| VM (Multipass)      | 192.168.1.2              |
++---------------------+--------------------------+
+| Docker Container    | IP: 172.17.0.2           |
+| (Minecraft-Server)  |                          |
++---------------------+--------------------------+
+| Docker Container    | IP: 172.17.0.3           |
+| (Duplicati)         |                          |
++---------------------+--------------------------+
+
+
 ## Schritt 2. VM Erstellen.
 
 Ich habe als erstes eine VM auf Mutlipass erstellt. Dafür muss Mutlipass schon installiert und anwendungsbereit sein. Multipass kann man hier installieren:
