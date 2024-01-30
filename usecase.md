@@ -28,6 +28,7 @@ Eine detaillierte Dokumentation für den Recovery-Prozess ist verfügbar.
 
 •	Konzeptuell ist eine klare Unterscheidung zwischen der Sicherung von Benutzerdaten (Spielstände) und den Systemdaten (z. B. Docker- und VM-Konfigurationen) vorhanden.
 •	Die Sicherung und Wiederherstellung von Benutzerdaten und Systemdaten erfolgt getrennt und ist in der Dokumentation festgehalten.
+
 4.	#### Technologische Umsetzung:
 
 •	Die gewählte technologische Umsetzung ist auf den definierten Use-Case angewendet.
