@@ -24,51 +24,41 @@ Um dieses Problem zu beheben, arbeite ich an einem detaillierten Konzept für di
 
 1. #### Use-Case Beurteilung:
 
+**Virtuelle Maschine**
+
 Die virtuelle Maschine (VM) wird erfolgreich mit Multipass erstellt und enthält eine Docker-Instanz für den Minecraft-Server sowie eine Duplicati-Instanz.
+
+**Konfigurationen**
 
 Die Konfiguration der VM und der Container erfolgt mithilfe von Docker-Compose, wobei die Ressourcen (CPU, RAM, Festplattengrösse) angemessen festgelegt sind.
 
+**Docker-Container**
+
 Die Docker-Container (Minecraft-Server und Duplicati) können erfolgreich gestartet werden, und die Anwendungen sind funktionsfähig.
+
+**Minecraft-Server**
 
 Der Minecraft-Server kann über die VM-IP und den entsprechenden Port erreicht werden, und ein Spielstand kann erfolgreich gespeichert und wiederhergestellt werden.
 
+**Duplicati**
+
 Duplicati ist korrekt konfiguriert und kann regelmässige verschlüsselte Backups der Minecraft-Daten in der Mega.nz-Cloud erstellen.
+
+**Portainer**
 
 Portainer wird erfolgreich installiert und ermöglicht die Überwachung und Verwaltung der Docker-Container über eine benutzerfreundliche Benutzeroberfläche.
 
+**Mega.nz**
+
 Die Mega.nz-Cloud ist eingerichtet, und Duplicati kann erfolgreich auf den Cloud-Speicher zugreifen und Backups durchführen.
+
+**Recovery Key**
 
 Der Benutzer hat einen Recovery Key für den Mega.nz-Account erstellt und sicher gespeichert.
 Die Wiederherstellung des Minecraft-Spielstands aus dem Duplicati-Backup wurde erfolgreich durchgeführt.
 
-Eine detaillierte Dokumentation für den Recovery-Prozess ist verfügbar.
 
-2.	#### Restore-Prozess:
-
-•	Der Restore-Prozess ist detailliert beschrieben und funktional dokumentiert.
-•	Der Restore-Prozess wurde erfolgreich getestet, um die Funktionalität sicherzustellen.
-
-3.	#### Unterscheidung von Datenarten:
-
-•	Konzeptuell ist eine klare Unterscheidung zwischen der Sicherung von Benutzerdaten (Spielstände) und den Systemdaten (z. B. Docker- und VM-Konfigurationen) vorhanden.
-•	Die Sicherung und Wiederherstellung von Benutzerdaten und Systemdaten erfolgt getrennt und ist in der Dokumentation festgehalten.
-
-4.	#### Technologische Umsetzung:
-
-•	Die gewählte technologische Umsetzung ist auf den definierten Use-Case angewendet.
-•	Konkrete Anweisungen für die Datensicherung sind für verschiedene Services (Minecraft-Server, Docker, VM) konkret festgehalten.
-•	Die gewählten Sicherungsverfahren sind in Bezug auf die verschiedenen Services angemessen begründet.
-
-5.	#### Mega.nz Integration:
-
-•	Die Integration von Mega.nz als Cloud-Speicher für Duplicati ist erfolgreich durchgeführt.
-•	Die Sicherung und Wiederherstellung von Daten auf Mega.nz wurde erfolgreich getestet.
-
-6.	#### Recovery Key:
-
-•	Der Benutzer hat einen Recovery Key für den Mega.nz-Account erstellt und sicher gespeichert.
-
-7. #### Backup art.
+ ## Inkrementelle Backup
 
 Im Rahmen dieses Projekts wurde die Backup-Strategie der inkrementellen Backups gewählt, um effiziente Sicherungen von Minecraft-Spielständen und Systemkonfigurationen zu ermöglichen. Dieser Ansatz wurde im Vergleich zu einem vollständigen (Full) Backup gewählt, um bestimmte Vorteile zu nutzen.
 
