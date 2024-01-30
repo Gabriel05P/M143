@@ -69,15 +69,15 @@ Die detaillierte Dokumentation mit Screenshots und Erklärungen für die einzeln
 
 Warum gewählt:
 
-Effiziente Datenverwaltung:
+**Effiziente Datenverwaltung:**
 
  Die Differentielle Sicherung sichert nur die Daten, die sich seit der letzten Voll­sicherung geändert haben. Dies ermöglicht eine effiziente Nutzung des Speicherplatzes im Vergleich zu regelmäßigen Voll­sicherungen.
 
-Schnellere Wiederherstellung:
+**Schnellere Wiederherstellung:**
 
  Im Falle eines Datenverlusts müssen nur die differentiellen Backups seit der letzten Voll­sicherung wiederhergestellt werden. Dies beschleunigt den Wiederherstellungsprozess im Vergleich zu inkrementellen Backups, bei denen alle inkrementellen Sicherungen seit der letzten Voll- oder Differenzialsicherung benötigt werden.
 
-Vorteile:
+**Vorteile:**
 
 Zeitersparnis bei der Wiederherstellung:
 
