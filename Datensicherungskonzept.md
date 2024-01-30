@@ -43,3 +43,26 @@ Besonders schützenswerte Daten, wie die Spielstände der Minecraft-Spieler, wer
 
 - **Unangemessene Zugriffskontrolle:**
   - *Maßnahmen:* Implementierung von Zugriffsrichtlinien, Rollenbasierte Zugriffskontrolle, regelmäßige Überprüfung der Zugriffsrechte.
+
+#### Ich kann Kriterien berücksichtigen, die einen effizienten Einsatz von Backup- und Restore-Systemen ermöglichen. Zudem kann ich das optimale Datensicherungsverfahren für ein Datensicherungskonzept bestimmen.
+
+- **RPO (Recovery Point Objective) und RTO (Recovery Time Objective):**
+  - *Beschreibung:* Bestimmen, wie viel Datenverlust akzeptabel ist (RPO) und wie schnell das System nach einem Ausfall wiederhergestellt werden muss (RTO).
+
+- **Datenpriorisierung:**
+  - *Beschreibung:* Bestimmt, welche Daten prioritär gesichert und wiederhergestellt werden müssen, basierend auf ihrer Wichtigkeit für das Geschäft.
+
+- **Speicherplatz und Skalierbarkeit:**
+  - *Beschreibung:* Sicherstellung ausreichender Speicherkapazität für die Datensicherung sowie die Möglichkeit zur Skalierung entsprechend dem wachsenden Datenvolumen.
+
+- **Automatisierung und Planung:**
+  - *Beschreibung:* Automatisierte Sicherungsprozesse reduzieren menschliche Fehler und gewährleisten die regelmäßige Durchführung von Sicherungen gemäß einem definierten Plan.
+
+- **Wiederherstellungsanforderungen:**
+  - *Beschreibung:* Je nach RPO und RTO können unterschiedliche Sicherungsverfahren besser geeignet sein. Zum Beispiel sind inkrementelle Sicherungen oft schneller, während differentielle Sicherungen weniger Komplexität bei der Wiederherstellung bieten.
+
+- **Infrastruktur und Budget:**
+  - *Beschreibung:* Die verfügbare Hardware, Software und finanzielle Ressourcen beeinflussen die Auswahl des optimalen Verfahrens.
+
+- **Compliance-Anforderungen:**
+  - *Beschreibung:* Branchen- oder regionale Vorschriften können spezifische Anforderungen an Sicherungsverfahren vorgeben, die berücksichtigt werden müssen.
