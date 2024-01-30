@@ -1,4 +1,4 @@
-## User Story: Minecraft Server Backup und Wiederherstellung
+## Userstory: Minecraft Server Backup und Wiederherstellung
 
 ### Beschreibung
 
