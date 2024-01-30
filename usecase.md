@@ -65,19 +65,32 @@ Zusätzliche Informationen
 Die detaillierte Dokumentation mit Screenshots und Erklärungen für die einzelnen Schritte ist im Dokument [Readme.md](README.md) verfügbar.
 
 
- ## Inkrementelle Backup
+**Differentielle Sicherung (Differential Backup):**
 
-Im Rahmen dieses Projekts wurde die Backup-Strategie der inkrementellen Backups gewählt, um effiziente Sicherungen von Minecraft-Spielständen und Systemkonfigurationen zu ermöglichen. Dieser Ansatz wurde im Vergleich zu einem vollständigen (Full) Backup gewählt, um bestimmte Vorteile zu nutzen.
+Warum gewählt:
 
-**Inkrementelle Backups im Überblick:**
+Effiziente Datenverwaltung:
 
-Definition: Inkrementelle Backups sichern nur die seit dem letzten Backup geänderten oder hinzugefügten Daten.
+ Die Differentielle Sicherung sichert nur die Daten, die sich seit der letzten Voll­sicherung geändert haben. Dies ermöglicht eine effiziente Nutzung des Speicherplatzes im Vergleich zu regelmäßigen Voll­sicherungen.
 
-**Vorteile:**
+Schnellere Wiederherstellung:
 
-Speicherplatzoptimierung: Inkrementelle Backups benötigen weniger Speicherplatz, da nur Änderungen seit dem letzten Backup gesichert werden.
+ Im Falle eines Datenverlusts müssen nur die differentiellen Backups seit der letzten Voll­sicherung wiederhergestellt werden. Dies beschleunigt den Wiederherstellungsprozess im Vergleich zu inkrementellen Backups, bei denen alle inkrementellen Sicherungen seit der letzten Voll- oder Differenzialsicherung benötigt werden.
 
-Zeiteffizienz: Da nur inkrementelle Änderungen gesichert werden, ist der Backup-Prozess schneller im Vergleich zu einem Full Backup.
+Vorteile:
+
+Zeitersparnis bei der Wiederherstellung:
+
+Die Wiederherstellung erfolgt schneller im Vergleich zu inkrementellen Backups, da nur die differentiellen Backups seit der letzten Voll­sicherung benötigt werden.
+
+Speicherplatzoptimierung:
+
+ Im Vergleich zu regelmäßigen Voll­sicherungen ist der Speicherplatzbedarf für differentielle Backups geringer, da nur die Änderungen seit der letzten Voll­sicherung gesichert werden.
+
+Einfache Verwaltung:
+
+ Die Verwaltung von differentiellen Backups ist einfacher als bei inkrementellen Backups, da nur die differentiellen Backups und die letzte Voll­sicherung berücksichtigt werden müssen.
+
 
 **Vergleich mit einem Full Backup:**
 
@@ -93,17 +106,6 @@ Einfache Wiederherstellung: Die Wiederherstellung ist einfach, da alle Daten in 
 Hoher Speicherplatzbedarf: Full Backups benötigen mehr Speicherplatz, da sie alle Daten umfassen, auch wenn sie sich nicht geändert haben.
 
 Zeitaufwändig: Die Durchführung eines Full Backups kann mehr Zeit in Anspruch nehmen, insbesondere bei grossen Datenmengen.
-
-Warum die Wahl auf inkrementelle Backups fiel:
-Die Entscheidung für inkrementelle Backups wurde getroffen, um den spezifischen Anforderungen des Projekts gerecht zu werden:
-
-**Ressourcenschonung:** Durch die Speicherplatzoptimierung wird der Ressourcenverbrauch minimiert, was besonders in Cloud-Speicherlösungen von Vorteil ist.
-
-**Schnellere Backup-Zeiten:** Die inkrementelle Backup-Strategie ermöglicht schnellere Backup-Zeiten, was den kontinuierlichen Spielbetrieb und andere Dienste minimale Ausfallzeiten gewährleistet.
-
-**Effizientes Rücksichern:** Im Falle einer Wiederherstellung müssen nur die inkrementellen Änderungen seit dem letzten Backup wiederhergestellt werden, was die Prozesse beschleunigt.
-
-Die Wahl der Backup-Strategie wurde somit auf die spezifischen Anforderungen des Projekts und die Notwendigkeit einer effizienten Datensicherung abgestimmt.
 
 
 
