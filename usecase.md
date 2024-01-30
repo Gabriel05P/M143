@@ -25,14 +25,22 @@ Um dieses Problem zu beheben, arbeite ich an einem detaillierten Konzept für di
 1. #### Use-Case Beurteilung:
 
 Die virtuelle Maschine (VM) wird erfolgreich mit Multipass erstellt und enthält eine Docker-Instanz für den Minecraft-Server sowie eine Duplicati-Instanz.
+
 Die Konfiguration der VM und der Container erfolgt mithilfe von Docker-Compose, wobei die Ressourcen (CPU, RAM, Festplattengrösse) angemessen festgelegt sind.
+
 Die Docker-Container (Minecraft-Server und Duplicati) können erfolgreich gestartet werden, und die Anwendungen sind funktionsfähig.
+
 Der Minecraft-Server kann über die VM-IP und den entsprechenden Port erreicht werden, und ein Spielstand kann erfolgreich gespeichert und wiederhergestellt werden.
+
 Duplicati ist korrekt konfiguriert und kann regelmässige verschlüsselte Backups der Minecraft-Daten in der Mega.nz-Cloud erstellen.
+
 Portainer wird erfolgreich installiert und ermöglicht die Überwachung und Verwaltung der Docker-Container über eine benutzerfreundliche Benutzeroberfläche.
+
 Die Mega.nz-Cloud ist eingerichtet, und Duplicati kann erfolgreich auf den Cloud-Speicher zugreifen und Backups durchführen.
+
 Der Benutzer hat einen Recovery Key für den Mega.nz-Account erstellt und sicher gespeichert.
 Die Wiederherstellung des Minecraft-Spielstands aus dem Duplicati-Backup wurde erfolgreich durchgeführt.
+
 Eine detaillierte Dokumentation für den Recovery-Prozess ist verfügbar.
 
 2.	#### Restore-Prozess:
