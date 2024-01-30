@@ -18,6 +18,7 @@ Problembeschreibung:
 
 
 Lösungskonzept:
+
 Um dieses Problem zu beheben, arbeite ich an einem detaillierten Konzept für die Implementierung eines automatischen Backup-Systems für die Spieler-Spielstände auf dem Backmine Minecraft-Server.
 
 ## Kriterien
