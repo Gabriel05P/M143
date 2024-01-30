@@ -1,5 +1,13 @@
 ## Userstory: Minecraft Server Backup und Wiederherstellung
 
+**Weitere Unterlagen:**
+
+Das Datenschutzkonzept, ist hier zu finden: [Datensicherungskonzept](Datensicherungskonzept.md)
+
+Die Betriebsdokumentation, ist hier zu finden: [Betriebsdokumentation](README.md)
+
+Die Restore Dokumentation, ist hier zu finden: [Recovery Dokumentation](Recovery.md)
+
 ### Beschreibung
 
 Benutzergeschichte:
