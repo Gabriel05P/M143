@@ -6,7 +6,7 @@ Um die VM's und Testumgebungen zu erstellen, benutze ich dafür Multipass. Ich B
 
 Das Ziel ist es das Ich bei meinem Minecraft server den Spielstand Backupen kann und der auch bei Komplettem Datenverlust wiederhergestellt werden kann, mittels eines Recovery.
 
-Diese IP's würde ich verwenden, wenn ich 
+Diese IP's würde ich verwenden, wenn ich das Backup ausarbeiten würde.
 
 | Komponente           | IP-Adresse       |
 |----------------------|------------------|
