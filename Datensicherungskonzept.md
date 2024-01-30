@@ -66,3 +66,67 @@ Besonders schützenswerte Daten, wie die Spielstände der Minecraft-Spieler, wer
 
 - **Compliance-Anforderungen:**
   - *Beschreibung:* Branchen- oder regionale Vorschriften können spezifische Anforderungen an Sicherungsverfahren vorgeben, die berücksichtigt werden müssen.
+
+  #### Ich kann unterschiedliche Datensicherungsverfahren und -technologien erklären und begründen.
+
+- **Vollsicherung (Full Backup):**
+  - *Beschreibung:* Kopiert alle ausgewählten Daten in einem einzigen Durchgang. Einfach wiederherzustellen, erfordert jedoch viel Speicherplatz und Zeit für regelmäßige Sicherungen.
+
+- **Inkrementelle Sicherung (Incremental Backup):**
+  - *Beschreibung:* Nur die seit der letzten Sicherung geänderten oder hinzugefügten Daten werden gesichert. Spart Speicherplatz und Zeit, allerdings ist die Wiederherstellung zeitaufwändiger, da alle inkrementellen Backups seit der letzten Voll- oder Differenzialsicherung benötigt werden.
+
+- **Differentielle Sicherung (Differential Backup):**
+  - *Beschreibung:* Ähnlich wie inkrementelle Sicherungen, jedoch werden hier nur die Daten gesichert, die sich seit der letzten Voll­sicherung geändert haben. Die Wiederherstellung ist schneller als bei inkrementellen Backups, erfordert jedoch mehr Speicherplatz. **(Dies wurde im Backup System implementiert)**
+
+- **Snapshot-Technologien:**
+  - *Beschreibung:* Ermöglichen es, den Zustand eines Systems zu einem bestimmten Zeitpunkt festzuhalten. Bieten konsistente Sicherungen, ohne den laufenden Betrieb zu beeinträchtigen.
+
+- **Cloud-basierte Sicherung:**
+  - *Beschreibung:* Speichert Daten auf entfernten Servern über das Internet. Bietet Skalierbarkeit, Zugänglichkeit von überall und Schutz vor lokalen Katastrophen. **(Dies wurde im Backup System implementiert)**
+
+- **Verschlüsselungstechniken:**
+  - *Beschreibung:* Schützen Daten während der Übertragung und Speicherung vor unbefugtem Zugriff. Verschlüsselung gewährleistet die Vertraulichkeit und Integrität der gesicherten Daten. **(Dies wurde im Backup System implementiert)**
+
+  **Differentielle Sicherung (Differential Backup):**
+
+Warum gewählt:
+
+**Effiziente Datenverwaltung:**
+
+ Die Differentielle Sicherung sichert nur die Daten, die sich seit der letzten Voll­sicherung geändert haben. Dies ermöglicht eine effiziente Nutzung des Speicherplatzes im Vergleich zu regelmäßigen Voll­sicherungen.
+
+**Schnellere Wiederherstellung:**
+
+ Im Falle eines Datenverlusts müssen nur die differentiellen Backups seit der letzten Voll­sicherung wiederhergestellt werden. Dies beschleunigt den Wiederherstellungsprozess im Vergleich zu inkrementellen Backups, bei denen alle inkrementellen Sicherungen seit der letzten Voll- oder Differenzialsicherung benötigt werden.
+
+**Vorteile:**
+
+Zeitersparnis bei der Wiederherstellung:
+
+Die Wiederherstellung erfolgt schneller im Vergleich zu inkrementellen Backups, da nur die differentiellen Backups seit der letzten Voll­sicherung benötigt werden.
+
+Speicherplatzoptimierung:
+
+ Im Vergleich zu regelmäßigen Voll­sicherungen ist der Speicherplatzbedarf für differentielle Backups geringer, da nur die Änderungen seit der letzten Voll­sicherung gesichert werden.
+
+Einfache Verwaltung:
+
+ Die Verwaltung von differentiellen Backups ist einfacher als bei inkrementellen Backups, da nur die differentiellen Backups und die letzte Voll­sicherung berücksichtigt werden müssen.
+
+
+**Vergleich mit einem Full Backup:**
+
+Full Backup:
+Definition: Ein Full Backup sichert alle Daten, unabhängig davon, ob sie seit dem letzten Backup geändert wurden.
+
+**Vorteile:**
+
+Einfache Wiederherstellung: Die Wiederherstellung ist einfach, da alle Daten in einem Backup enthalten sind.
+
+**Nachteile:**
+
+Hoher Speicherplatzbedarf: Full Backups benötigen mehr Speicherplatz, da sie alle Daten umfassen, auch wenn sie sich nicht geändert haben.
+
+Zeitaufwändig: Die Durchführung eines Full Backups kann mehr Zeit in Anspruch nehmen, insbesondere bei grossen Datenmengen.
+
+
