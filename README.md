@@ -7,7 +7,7 @@ die UserStory, ist hier zu finden: [Usecase](usecase.md)
 Das Datenschutzkonzept, ist hier zu finden: [Datensicherungskonzept](Datensicherungskonzept.
 md)
 
-Die Restore Dokumentation, ist hier zu finden: ![Recovery Dokumentation](<minecraft m143 Recorvery.png>)
+Die Restore Dokumentation, ist hier zu finden: [Recovery Dokumentation](Recovery.md)
 
 ## Konzept:
 ![Alt text](image.png)
