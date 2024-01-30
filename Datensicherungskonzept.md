@@ -20,3 +20,26 @@ Das Datensicherungskonzept orientiert sich an allgemeinen Vorgaben und Empfehlun
 ### Besonders schützenswerte Daten und Verschlüsselung
 
 Besonders schützenswerte Daten, wie die Spielstände der Minecraft-Spieler, werden gesondert behandelt. Diese Daten werden vor der Übertragung und Speicherung verschlüsselt, um sicherzustellen, dass selbst bei einem unbefugten Zugriff keine sensiblen Informationen preisgegeben werden.
+
+#### Ich kann technische und personelle Risiken eines Datensicherungssystems einschätzen und dabei passende Einflussfaktoren bei der Erstellung eines Datensicherungskonzepts berücksichtigen.
+
+- **Hardware-Ausfälle:**
+  - *Maßnahmen:* Regelmäßige Wartung, Einsatz von Redundanzmechanismen.
+
+- **Softwareprobleme:**
+  - *Maßnahmen:* Sorgfältiges Patch-Management, regelmäßige Software-Updates.
+
+- **Cyberangriffe:**
+  - *Maßnahmen:* Implementierung von Firewalls, Intrusion Detection Systemen, Verschlüsselung. Regelmäßige Schulungen für Mitarbeiter zur Sensibilisierung für Phishing und andere Angriffsmethoden.
+
+- **Fehlkonfiguration:**
+  - *Maßnahmen:* Standardisierte Konfigurationsverfahren, regelmäßige Überprüfungen.
+
+- **Menschliche Fehler:**
+  - *Maßnahmen:* Schulungen, Richtlinien für korrekte Handhabung von Daten. Implementierung von Sicherheitsmechanismen wie Zugriffsbeschränkungen und Protokollierung.
+
+- **Unzureichende Überwachung:**
+  - *Maßnahmen:* Einsatz von Überwachungssystemen, Protokollierung.
+
+- **Unangemessene Zugriffskontrolle:**
+  - *Maßnahmen:* Implementierung von Zugriffsrichtlinien, Rollenbasierte Zugriffskontrolle, regelmäßige Überprüfung der Zugriffsrechte.
