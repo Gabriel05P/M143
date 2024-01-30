@@ -87,7 +87,7 @@ Besonders schützenswerte Daten, wie die Spielstände der Minecraft-Spieler, wer
 - **Verschlüsselungstechniken:**
   - *Beschreibung:* Schützen Daten während der Übertragung und Speicherung vor unbefugtem Zugriff. Verschlüsselung gewährleistet die Vertraulichkeit und Integrität der gesicherten Daten. **(Dies wurde im Backup System implementiert)**
 
-  **Differentielle Sicherung (Differential Backup):**
+  ## Differentielle Sicherung (Differential Backup):
 
 Warum gewählt:
 
