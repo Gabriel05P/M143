@@ -8,21 +8,14 @@ Das Ziel ist es das Ich bei meinem Minecraft server den Spielstand Backupen kann
 
 Diese IP's würde ich verwenden, wenn ich 
 
-+---------------------+--------------------------+
-|      Komponente     |      IP-Adresse          |
-+---------------------+--------------------------+
-| Internet            | -                        |
-+---------------------+--------------------------+
-| Cloud (Mega.nz)     | 203.0.113.1              |
-+---------------------+--------------------------+
-| VM (Multipass)      | 192.168.1.2              |
-+---------------------+--------------------------+
-| Docker Container    | IP: 172.17.0.2           |
-| (Minecraft-Server)  |                          |
-+---------------------+--------------------------+
-| Docker Container    | IP: 172.17.0.3           |
-| (Duplicati)         |                          |
-+---------------------+--------------------------+
+| Komponente           | IP-Adresse       |
+|----------------------|------------------|
+| Internet             | -                |
+| Cloud (Mega.nz)      | 203.0.113.1      |
+| VM (Multipass)       | 192.168.1.2      |
+| Docker Container (Minecraft-Server) | IP: 172.17.0.2 |
+| Docker Container (Duplicati)        | IP: 172.17.0.3 |
+
 
 
 ## Schritt 2. VM Erstellen.
