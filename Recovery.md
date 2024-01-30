@@ -1,5 +1,15 @@
 ## Recovery durchführung
 
+**Weitere Unterlagen:**
+
+die UserStory, ist hier zu finden: [Usecase](usecase.md)
+
+Die Betriebsdokumentation, ist hier zu finden: [Betriebsdokumentation](README.md)
+
+Das Datenschutzkonzept, ist hier zu finden: [Datensicherungskonzept](Datensicherungskonzept.md)
+
+## Durchführung:
+
 Da das Backup funktioniert, muss noch getestet werden ob es in einem Fall von komplettem Datenverlust, wir die Daten wiederherstellen können.
 
 Dafür musste ich erst auf meiner Aktuellen VM, auf Duplicati und mein Minecraft Backup aufklappen. Dort hatte ich die Option unter Konfiguration, Exportieren auszuwählen.
