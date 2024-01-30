@@ -2,7 +2,17 @@
 
 ### Beschreibung
 
-Als Betreiber eines Minecraft-Servers möchte ich regelmäßig meine Spielstände sichern, um im Falle von Datenverlust oder Serverproblemen den Spielstand schnell wiederherzustellen. Die Datensicherung und der Restore-Prozess werden basierend auf einem Use-Case untersucht und angewendet. Dabei werden verschiedene Methoden miteinander verglichen und anhand von spezifischen und quantifizierbaren Kriterien wird das geeignetste Verfahren ausgewählt. Die Sicherung von Benutzerdaten und Systemdaten (Systemkonfigurationsdaten oder Systembilder) sind konzeptionell voneinander getrennt.
+Benutzerstory:
+Als Mitglied der Backmine Minecraft-Community, möchte ich, dass regelmäßige Backups meines Spielstands auf dem Server erstellt werden, um sicherzustellen, dass keine Ressourcen oder Fortschritte verloren gehen, falls unvorhergesehene Probleme auftreten.
+
+Beschreibung:
+In unserer Backmine Minecraft-Community haben wir uns entschieden, regelmäßige Backups der Spieler-Spielstände auf unserem Server zu implementieren. Dieser Schritt wurde unternommen, um die wertvolle Zeit und Mühe, die unsere Spieler in den Aufbau ihrer Welten investieren, zu schützen.
+
+Problembeschreibung:
+Das Hauptproblem, das wir durch die Einführung dieser Backup-Routine lösen möchten, ist der potenzielle Verlust von Spielständen aufgrund von Serverausfällen, technischen Problemen oder anderen unerwarteten Zwischenfällen. Es gab in der Vergangenheit Situationen, in denen Spieler wertvolle Ressourcen und kreative Errungenschaften verloren haben, was zu Frustration und Unzufriedenheit innerhalb der Community geführt hat.
+
+Lösungskonzept:
+Um dieses Problem zu beheben, arbeite ich an einem detaillierten Konzept für die Implementierung eines automatischen Backup-Systems für die Spieler-Spielstände auf dem Backmine Minecraft-Server.
 
 ## Kriterien
 
