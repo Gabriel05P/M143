@@ -44,18 +44,11 @@ Eine detaillierte Dokumentation für den Recovery-Prozess ist verfügbar.
 
 •	Der Benutzer hat einen Recovery Key für den Mega.nz-Account erstellt und sicher gespeichert.
 
-7.	#### Zusätzliche Sicherheit:
-
-•	Zusätzliche Sicherheitsmaßnahmen wie die Verschlüsselung von Backups sind implementiert und dokumentiert.
-•	Sicherheitsüberlegungen für den Zugriff auf die Cloud und die verwendeten Dienste sind dokumentiert.
-Zusätzliche Informationen
-Die detaillierte Dokumentation mit Screenshots und Erklärungen für die einzelnen Schritte ist im Dokument [Readme.md](README.md) verfügbar.
-
-8. #### Backup art.
+7. #### Backup art.
 
 Im Rahmen dieses Projekts wurde die Backup-Strategie der inkrementellen Backups gewählt, um effiziente Sicherungen von Minecraft-Spielständen und Systemkonfigurationen zu ermöglichen. Dieser Ansatz wurde im Vergleich zu einem vollständigen (Full) Backup gewählt, um bestimmte Vorteile zu nutzen.
 
-Inkrementelle Backups im Überblick:
+** Inkrementelle Backups im Überblick: **
 
 Definition: Inkrementelle Backups sichern nur die seit dem letzten Backup geänderten oder hinzugefügten Daten.
 
@@ -89,5 +82,14 @@ Schnellere Backup-Zeiten: Die inkrementelle Backup-Strategie ermöglicht schnell
 Effizientes Rücksichern: Im Falle einer Wiederherstellung müssen nur die inkrementellen Änderungen seit dem letzten Backup wiederhergestellt werden, was die Prozesse beschleunigt.
 
 Die Wahl der Backup-Strategie wurde somit auf die spezifischen Anforderungen des Projekts und die Notwendigkeit einer effizienten Datensicherung abgestimmt.
+
+8.	#### Zusätzliche Sicherheit:
+
+•	Zusätzliche Sicherheitsmaßnahmen wie die Verschlüsselung von Backups sind implementiert und dokumentiert.
+•	Sicherheitsüberlegungen für den Zugriff auf die Cloud und die verwendeten Dienste sind dokumentiert.
+Zusätzliche Informationen
+Die detaillierte Dokumentation mit Screenshots und Erklärungen für die einzelnen Schritte ist im Dokument [Readme.md](README.md) verfügbar.
+
+
 
 
