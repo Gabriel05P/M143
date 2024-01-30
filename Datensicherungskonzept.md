@@ -15,7 +15,7 @@ Multipass-VM-Konfigurationen
 Duplicati-Konfigurationen
 Netdata-Konfigurationen
 Abstützung auf allgemeinen Vorgaben und Empfehlungen
-Das Datensicherungskonzept orientiert sich an allgemeinen Vorgaben und Empfehlungen, insbesondere den Richtlinien des . Hierbei werden bewährte Sicherheitspraktiken berücksichtigt, um die Integrität, Vertraulichkeit und Verfügbarkeit der gesicherten Daten zu gewährleisten.
+Das Datensicherungskonzept orientiert sich an allgemeinen Vorgaben und Empfehlungen, insbesondere den Richtlinien des BSI Grundschutz und den Datenschutzgesetzes. Hierbei werden bewährte Sicherheitspraktiken berücksichtigt, um die Integrität, Vertraulichkeit und Verfügbarkeit der gesicherten Daten zu gewährleisten.
 
 ### Besonders schützenswerte Daten und Verschlüsselung
 
