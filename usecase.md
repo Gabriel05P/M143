@@ -2,15 +2,20 @@
 
 ### Beschreibung
 
-Benutzerstory:
+Benutzergeschichte:
 
-Als Mitglied der Backmine Minecraft-Community, möchte ich, dass regelmäßige Backups meines Spielstands auf dem Server erstellt werden, um sicherzustellen, dass keine Ressourcen oder Fortschritte verloren gehen, falls unvorhergesehene Probleme auftreten.
+Als Mitglied der Backmine-Community von Minecraft möchte ich, dass regelmäßige Backups meines Spielstands auf dem Server erstellt werden, um sicherzustellen, dass keine Ressourcen oder Fortschritte verloren gehen, falls unvorhergesehene Probleme auftreten.
+
 
 Beschreibung:
-In unserer Backmine Minecraft-Community haben wir uns entschieden, regelmäßige Backups der Spieler-Spielstände auf unserem Server zu implementieren. Dieser Schritt wurde unternommen, um die wertvolle Zeit und Mühe, die unsere Spieler in den Aufbau ihrer Welten investieren, zu schützen.
+
+ Wir haben uns entschieden, in unserer Backmine Minecraft-Community regelmässige Backups der Spieler-Spielstände auf unserem Server zu implementieren. Diese Massnahme wurde ergriffen, um die kostbare Zeit und Energie zu schützen, die unsere Spieler in den Aufbau ihrer Welten investieren.
 
 Problembeschreibung:
-Das Hauptproblem, das wir durch die Einführung dieser Backup-Routine lösen möchten, ist der potenzielle Verlust von Spielständen aufgrund von Serverausfällen, technischen Problemen oder anderen unerwarteten Zwischenfällen. Es gab in der Vergangenheit Situationen, in denen Spieler wertvolle Ressourcen und kreative Errungenschaften verloren haben, was zu Frustration und Unzufriedenheit innerhalb der Community geführt hat.
+
+ Wir möchten das Hauptproblem lösen, nämlich den potenziellen Verlust von Spielständen aufgrund von Serverausfällen, technischen Problemen oder anderen unvorhergesehenen Zwischenfällen, indem wir diese Backup-Routine einführen. In der Vergangenheit war die Community frustriert und unzufrieden, als Spieler wertvolle Ressourcen und kreative Leistungen verloren haben.
+
+
 
 Lösungskonzept:
 Um dieses Problem zu beheben, arbeite ich an einem detaillierten Konzept für die Implementierung eines automatischen Backup-Systems für die Spieler-Spielstände auf dem Backmine Minecraft-Server.
@@ -20,10 +25,10 @@ Um dieses Problem zu beheben, arbeite ich an einem detaillierten Konzept für di
 1. #### Use-Case Beurteilung:
 
 Die virtuelle Maschine (VM) wird erfolgreich mit Multipass erstellt und enthält eine Docker-Instanz für den Minecraft-Server sowie eine Duplicati-Instanz.
-Die Konfiguration der VM und der Container erfolgt mithilfe von Docker-Compose, wobei die Ressourcen (CPU, RAM, Festplattengröße) angemessen festgelegt sind.
+Die Konfiguration der VM und der Container erfolgt mithilfe von Docker-Compose, wobei die Ressourcen (CPU, RAM, Festplattengrösse) angemessen festgelegt sind.
 Die Docker-Container (Minecraft-Server und Duplicati) können erfolgreich gestartet werden, und die Anwendungen sind funktionsfähig.
 Der Minecraft-Server kann über die VM-IP und den entsprechenden Port erreicht werden, und ein Spielstand kann erfolgreich gespeichert und wiederhergestellt werden.
-Duplicati ist korrekt konfiguriert und kann regelmäßige verschlüsselte Backups der Minecraft-Daten in der Mega.nz-Cloud erstellen.
+Duplicati ist korrekt konfiguriert und kann regelmässige verschlüsselte Backups der Minecraft-Daten in der Mega.nz-Cloud erstellen.
 Portainer wird erfolgreich installiert und ermöglicht die Überwachung und Verwaltung der Docker-Container über eine benutzerfreundliche Benutzeroberfläche.
 Die Mega.nz-Cloud ist eingerichtet, und Duplicati kann erfolgreich auf den Cloud-Speicher zugreifen und Backups durchführen.
 Der Benutzer hat einen Recovery Key für den Mega.nz-Account erstellt und sicher gespeichert.
@@ -82,7 +87,7 @@ Einfache Wiederherstellung: Die Wiederherstellung ist einfach, da alle Daten in 
 
 Hoher Speicherplatzbedarf: Full Backups benötigen mehr Speicherplatz, da sie alle Daten umfassen, auch wenn sie sich nicht geändert haben.
 
-Zeitaufwändig: Die Durchführung eines Full Backups kann mehr Zeit in Anspruch nehmen, insbesondere bei großen Datenmengen.
+Zeitaufwändig: Die Durchführung eines Full Backups kann mehr Zeit in Anspruch nehmen, insbesondere bei grossen Datenmengen.
 
 Warum die Wahl auf inkrementelle Backups fiel:
 Die Entscheidung für inkrementelle Backups wurde getroffen, um den spezifischen Anforderungen des Projekts gerecht zu werden:
@@ -97,7 +102,7 @@ Die Wahl der Backup-Strategie wurde somit auf die spezifischen Anforderungen des
 
 8.	#### Zusätzliche Sicherheit:
 
-•	Zusätzliche Sicherheitsmaßnahmen wie die Verschlüsselung von Backups sind implementiert und dokumentiert.
+•	Zusätzliche Sicherheitsmassnahmen wie die Verschlüsselung von Backups sind implementiert und dokumentiert.
 •	Sicherheitsüberlegungen für den Zugriff auf die Cloud und die verwendeten Dienste sind dokumentiert.
 Zusätzliche Informationen
 Die detaillierte Dokumentation mit Screenshots und Erklärungen für die einzelnen Schritte ist im Dokument [Readme.md](README.md) verfügbar.
