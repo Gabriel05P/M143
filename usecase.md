@@ -50,3 +50,44 @@ Eine detaillierte Dokumentation für den Recovery-Prozess ist verfügbar.
 •	Sicherheitsüberlegungen für den Zugriff auf die Cloud und die verwendeten Dienste sind dokumentiert.
 Zusätzliche Informationen
 Die detaillierte Dokumentation mit Screenshots und Erklärungen für die einzelnen Schritte ist im Dokument [Readme.md](README.md) verfügbar.
+
+8. #### Backup art.
+
+Im Rahmen dieses Projekts wurde die Backup-Strategie der inkrementellen Backups gewählt, um effiziente Sicherungen von Minecraft-Spielständen und Systemkonfigurationen zu ermöglichen. Dieser Ansatz wurde im Vergleich zu einem vollständigen (Full) Backup gewählt, um bestimmte Vorteile zu nutzen.
+
+Inkrementelle Backups im Überblick:
+
+Definition: Inkrementelle Backups sichern nur die seit dem letzten Backup geänderten oder hinzugefügten Daten.
+
+Vorteile:
+
+Speicherplatzoptimierung: Inkrementelle Backups benötigen weniger Speicherplatz, da nur Änderungen seit dem letzten Backup gesichert werden.
+
+Zeiteffizienz: Da nur inkrementelle Änderungen gesichert werden, ist der Backup-Prozess schneller im Vergleich zu einem Full Backup.
+
+Vergleich mit einem Full Backup:
+
+Full Backup:
+Definition: Ein Full Backup sichert alle Daten, unabhängig davon, ob sie seit dem letzten Backup geändert wurden.
+
+Vorteile:
+
+Einfache Wiederherstellung: Die Wiederherstellung ist einfach, da alle Daten in einem Backup enthalten sind.
+Nachteile:
+
+Hoher Speicherplatzbedarf: Full Backups benötigen mehr Speicherplatz, da sie alle Daten umfassen, auch wenn sie sich nicht geändert haben.
+
+Zeitaufwändig: Die Durchführung eines Full Backups kann mehr Zeit in Anspruch nehmen, insbesondere bei großen Datenmengen.
+
+Warum die Wahl auf inkrementelle Backups fiel:
+Die Entscheidung für inkrementelle Backups wurde getroffen, um den spezifischen Anforderungen des Projekts gerecht zu werden:
+
+Ressourcenschonung: Durch die Speicherplatzoptimierung wird der Ressourcenverbrauch minimiert, was besonders in Cloud-Speicherlösungen von Vorteil ist.
+
+Schnellere Backup-Zeiten: Die inkrementelle Backup-Strategie ermöglicht schnellere Backup-Zeiten, was den kontinuierlichen Spielbetrieb und andere Dienste minimale Ausfallzeiten gewährleistet.
+
+Effizientes Rücksichern: Im Falle einer Wiederherstellung müssen nur die inkrementellen Änderungen seit dem letzten Backup wiederhergestellt werden, was die Prozesse beschleunigt.
+
+Die Wahl der Backup-Strategie wurde somit auf die spezifischen Anforderungen des Projekts und die Notwendigkeit einer effizienten Datensicherung abgestimmt.
+
+
