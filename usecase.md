@@ -48,7 +48,7 @@ Eine detaillierte Dokumentation für den Recovery-Prozess ist verfügbar.
 
 Im Rahmen dieses Projekts wurde die Backup-Strategie der inkrementellen Backups gewählt, um effiziente Sicherungen von Minecraft-Spielständen und Systemkonfigurationen zu ermöglichen. Dieser Ansatz wurde im Vergleich zu einem vollständigen (Full) Backup gewählt, um bestimmte Vorteile zu nutzen.
 
-** Inkrementelle Backups im Überblick: **
+**Inkrementelle Backups im Überblick:**
 
 Definition: Inkrementelle Backups sichern nur die seit dem letzten Backup geänderten oder hinzugefügten Daten.
 
