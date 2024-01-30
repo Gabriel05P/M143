@@ -58,6 +58,12 @@ Die Mega.nz-Cloud ist eingerichtet, und Duplicati kann erfolgreich auf den Cloud
 Der Benutzer hat einen Recovery Key für den Mega.nz-Account erstellt und sicher gespeichert.
 Die Wiederherstellung des Minecraft-Spielstands aus dem Duplicati-Backup wurde erfolgreich durchgeführt.
 
+**Zusätzliche Sicherheit:**
+
+Zusätzliche Sicherheitsmassnahmen wie die Verschlüsselung von Backups sind dokumentiert.
+Zusätzliche Informationen
+Die detaillierte Dokumentation mit Screenshots und Erklärungen für die einzelnen Schritte ist im Dokument [Readme.md](README.md) verfügbar.
+
 
  ## Inkrementelle Backup
 
@@ -99,12 +105,7 @@ Die Entscheidung für inkrementelle Backups wurde getroffen, um den spezifischen
 
 Die Wahl der Backup-Strategie wurde somit auf die spezifischen Anforderungen des Projekts und die Notwendigkeit einer effizienten Datensicherung abgestimmt.
 
-8.	#### Zusätzliche Sicherheit:
 
-•	Zusätzliche Sicherheitsmassnahmen wie die Verschlüsselung von Backups sind implementiert und dokumentiert.
-•	Sicherheitsüberlegungen für den Zugriff auf die Cloud und die verwendeten Dienste sind dokumentiert.
-Zusätzliche Informationen
-Die detaillierte Dokumentation mit Screenshots und Erklärungen für die einzelnen Schritte ist im Dokument [Readme.md](README.md) verfügbar.
 
 
 
